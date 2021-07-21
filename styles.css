@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+:root { 
+    --primary-color: #F4A261;
+    --dark-gray: #9CA3AF;
+    --light-black: #374151
+}
+
+body{
+    font-family: 'Kalam', cursive;
+    margin: 0px;
+}
+
+.margin-md{
+    padding-top: 2rem;
+}
+
+/** container **/
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto
+}
+
+
+
+hr {
+    margin: 2rem 0rem;
+}
+
+
+/** navigation **/
+
+.navigation{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+.navigation .nav-brand{
+    font-weight: lighter;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+/** button **/
+
+.btn{
+    background-color: var(--primary-color);
+    width: 50%;
+    height: 3vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    padding: 1rem 0rem;
+}
+
+ /** footer **/
+.footer{
+    margin-top: 4rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer .footer-header{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/** text area **/
+textarea {
+    width: 80%;
+    height: 15vh;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: block;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+
+/** text output **/
+
+#text-output{
+    width: 80%;
+    border: 1px solid black;
+    height: 12vh;
+    display: block;
+    padding: 1rem;
+}
