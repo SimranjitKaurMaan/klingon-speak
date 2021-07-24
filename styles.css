@@ -53,11 +53,13 @@ hr {
 .btn{
     background-color: var(--primary-color);
     width: 50%;
-    height: 3vh;
+    height: 1.5vh;
+    line-height: 1.5vh;
     text-align: center;
-    font-weight: bold;
-    font-size: large;
+    font-weight: bolder;
+    font-size: x-large;
     padding: 1rem 0rem;
+    border-radius: 2rem;;
 }
 
  /** footer **/
@@ -83,6 +85,7 @@ textarea {
     display: block;
     font-family: 'Kalam', cursive;
     font-size: large;
+    border-radius: 0.5rem;
 }
 
 /** text output **/
@@ -93,4 +96,5 @@ textarea {
     height: 12vh;
     display: block;
     padding: 1rem;
+    border-radius: 0.5rem;
 }
